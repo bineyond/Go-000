@@ -5,3 +5,9 @@
 # 思路
 
 应该Wrap这个error，因为当前业务的后续查询和逻辑处理有可能受此结果的影响，所以应当交给service层消化此error
+
+# 问题集
+
+[Go进阶训练营第三课问题收集](https://shimo.im/docs/vr6yDVPxRxXGKRDd)
+
+[Go进阶训练营第四课问题收集](https://shimo.im/docs/R6gP8qyvWqJrgRCk)
