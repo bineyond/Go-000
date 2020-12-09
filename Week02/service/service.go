@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/bineyond/Go-000/tree/main/Week02/dao"
+	"github.com/bineyond/Go-000/Week02/dao"
 
 	xerrors "github.com/pkg/errors"
 )
