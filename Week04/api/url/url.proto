@@ -1,0 +1,16 @@
+syntax ="proto3";
+package url;
+
+//option go_package = "Week04/api/url";
+
+service URLService {
+  rpc Shorten (ShortenRequest) returns (ShortenResponse) {}
+}
+
+message ShortenRequest {
+  string Origin = 1;
+}
+
+message ShortenResponse {
+  string Shorten = 1;
+}
